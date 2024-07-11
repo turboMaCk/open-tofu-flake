@@ -27,6 +27,11 @@
             hash = "sha256-AsqxcEzr3LUpCkB4d65GItnuipD2ECLlk+NlQN9TEt0=";
             vendorHash = "sha256-kSm5RZqQRgbmPaKt5IWmuMhHwAu+oJKTX1q1lbE7hWk";
           };
+          open-tofu-1_7_2 = buildTofu {
+            version = "1.7.2";
+            hash = "sha256-g0aMpSENMKHCyKyB2Lhq9XjH9GIx7l4/Sz9GDXmzUqU=";
+            vendorHash = "sha256-cML742FfWFNIwGyIdRd3JWcfDlOXnJVgUXz4j5fa74Q=";
+          };
           open-tofu-1_7_3 = buildTofu {
             version = "1.7.3";
             hash = "sha256-xP2TvL9n1mFfk5krtOTKGL6i4e+/xGLkBsMwZXiQTok=";
