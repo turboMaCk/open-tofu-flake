@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "Provide custom version of Open Tofu";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
