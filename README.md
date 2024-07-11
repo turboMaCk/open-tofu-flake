@@ -8,7 +8,7 @@ I'll do my best in accepting PRs though.
 ## Usage
 
 We support usage without flake. In such cases import the [lib](./lib) directly into your expression,
-pass call the function with correct `version, `hash` and `vendorHash` and you should be good to go.
+pass call the function with correct `version`, `hash` and `vendorHash` and you should be good to go.
 
 Flake exposes a few pre-selected versions of Open Tofu and exposes function `mkTofu` which accepts `version`, `hash`
 and `vendorHash` and could build custom versions of open tofu if you're lucky.
