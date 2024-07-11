@@ -31,8 +31,6 @@ and `vendorHash` and could build custom versions of open tofu if you're lucky.
     let
       pkgs = import nixpkgs {
         inherit system;
-        overlays = [ (import ./nix/overlays) ];
-        config.allowUnfreePredicate = pkg: builtins.elem (nixpkgs.lib.getName pkg) [ "terraform" "packer" ];
       };
 
       # Pick the pre-defined version
