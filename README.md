@@ -16,7 +16,7 @@ and `vendorHash` and could build custom versions of open tofu if you're lucky.
 
 ## Examples
 
-```
+```nix
 # flake.nix using flake-utils
 {
   inputs = {
